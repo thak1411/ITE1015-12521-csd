@@ -2,7 +2,7 @@
 int main() {
 	int n;
 	int* p;
-	scanf("%d", &n);
+	std::cin >> n;
 	p = new int[n];
 	for (int i = 0; i < n; ++i) p[i] = i;
 	for (int i = 0; i < n; ++i) std::cout << p[i] << ' ';

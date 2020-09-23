@@ -8,10 +8,10 @@ int max(int i, int j) {
 int main() {
 	int n, mi, ma;
 	int* p;
-	scanf("%d", &n);
+	std::cin >> n;
 	p = new int[n];
 
-	for (int i = 0; i < n; ++i) scanf("%d", p + i);
+	for (int i = 0; i < n; ++i) std::cin >> p[i];
 	mi = ma = p[0];
 	for (int i = 1; i < n; ++i) {
 		mi = min(mi, p[i]);
