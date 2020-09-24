@@ -8,6 +8,7 @@ int main() {
 	Person* pa;
 	int n;
 	std::cin >> n;
+	if (n <= 0) return 0;
 	pa = new Person[n];
 	for (int i = 0; i < n; ++i) {
 		std::cin >> pa[i].name >> pa[i].age;

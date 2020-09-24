@@ -15,6 +15,7 @@ int main() {
 	int* p;
 	int n;
 	std::cin >> n;
+	if (n <= 0) return 0;
 	p = new int[n];
 	for (int i = 0; i < n; ++i) {
 		std::cin >> p[i];
